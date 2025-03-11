@@ -4,6 +4,8 @@ customCommand:
   - key: 'I'
     context: 'files'
     command: 'git checkout --theirs .'
+    description: 'accept (I)ncomming changes'
   - key: 'L'
     context: 'files'
     command: 'git checkout --ours .'
+    description: 'accept (L)ocal changes'
