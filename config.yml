@@ -1,2 +1,9 @@
 os:
   editPreset: 'nvim'
+customCommand:
+  - key: 'I'
+    context: 'files'
+    command: 'git checkout --theirs .'
+  - key: 'L'
+    context: 'files'
+    command: 'git checkout --ours .'
